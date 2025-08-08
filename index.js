@@ -4,7 +4,7 @@ const port = process.env.PORT || 3001;
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello from user-api!',
+    message: "Hello from Zensar, we're testing CI/CD pipeline",
     description: 'Testing complete GCP CI/CD pipeline',
     version: '1.0.0'
   });
@@ -17,3 +17,4 @@ app.get('/health', (req, res) => {
 app.listen(port, () => {
   console.log(`user-api is running on port ${port}`);
 });
+
