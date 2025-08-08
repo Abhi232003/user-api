@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: user-api
+  description: Testing complete GCP CI/CD pipeline
+  annotations:
+    github.com/project-slug: Abhi232003/user-api
+    github.com/workflows: ci.yml
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/guests
